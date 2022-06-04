@@ -1,5 +1,5 @@
 import express from "express";
-import vendas from "../routes/vendasRoutes.js";
+import vendas from "./clientesRoutes.js";
 
 
 const routes = (app) => {
