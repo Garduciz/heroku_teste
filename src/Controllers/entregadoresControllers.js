@@ -1,4 +1,4 @@
-import entregadores from "../models/entregadores"
+import entregadores from "../models/Entregadores.js"
 
 class entregadoresControllers {
         //listar entregadores appget

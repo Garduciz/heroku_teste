@@ -1,4 +1,4 @@
-import estabelecimentos from "../models/estabelecimento"
+import estabelecimentos from "../models/Estabelecimento.js"
 
 class estabelecimentoControllers {
         //listar estabelecimentos appget

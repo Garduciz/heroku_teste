@@ -1,4 +1,4 @@
-import pedidos from "../models/pedidos"
+import pedidos from "../models/Pedidos.js"
 
 class pedidosControllers {
         //listar pedidos appget

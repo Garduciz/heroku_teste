@@ -1,19 +1,19 @@
-import produtos from "../models/produtos"
+import produtos from "../models/Produtos.js"
 
 class produtosControllers {
         //listar produtos appget
     static listarProdutos = (req, res) => {
-        produtos.find((err, produto) => {
-            res.status(200).json(produto)
+        produtos.find((err, produtos) => {
+            res.status(200).json(produtos)
     })}
         //listar produtos por id 
         static listarProdutosId = (req, res) => {
                 const id = req.params.id;
-                produtos.findById(id, (err, produto) => {
+                produtos.findById(id, (err, produtos) => {
                 if(err) {
                 res.status(400).send({message: `${err.message} - produtos não localizada.`})
                 } else {
-                res.status(200).send(produto);
+                res.status(200).send(produtos);
             }
         })
       }
