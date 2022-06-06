@@ -7,6 +7,7 @@ const router = express.Router();
 router
     .get("/clientes", clientesControllers.listarCliente)
     .get("/clientes/:id", clientesControllers.listarClientesId)
+    .get("/clientes/email/:email", clientesControllers.listarClientesEmail)
     .post("/clientes", clientesControllers.cadastrarclientes)
     .put("/clientes/:id", clientesControllers.atualizarclientes)
     .delete("/clientes/:id", clientesControllers.excluirClientes)
