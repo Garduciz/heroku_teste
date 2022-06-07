@@ -15,6 +15,7 @@
   "author": "juliocvidal",
   "license": "ISC",
   "dependencies": {
+    "@types/cors": "^2.8.12",
     "body-parser": "^1.20.0",
     "consign": "^0.1.2",
     "cors": "^2.8.5",
@@ -31,7 +32,7 @@
     "sqlite3": "^5.0.6"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.12",
+    
     "supertest": "^6.2.3"
   }
 }
